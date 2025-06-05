@@ -93,8 +93,8 @@ export default function MeetingsDashboard() {
   if (error) return <div className="text-center py-8 text-red-500">Error: {error}</div>;
 
   return (
-    <div className="text-black">
-      <div className="flex justify-between items-center mb-8">
+    <div className="text-black p-4">
+      <div className="flex justify-between items-center mb-8 p-4">
         <h2 className="text-2xl font-semibold">Meetings</h2>
         <div className="space-x-4">
           {selected.length > 0 && (
